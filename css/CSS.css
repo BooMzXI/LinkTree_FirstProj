@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto;
+    width: 500px;
+    height: 600px;
+    justify-content: center;
+    position: relative;
+}
+.containerImg {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+}
+#logo {
+    border-radius: 100%;
+    max-width: 200px;
+    height: 200px;
+    border: 3px solid white;
+    margin: 0% auto;
+    justify-content: center;
+    position: absolute;
+    margin-top: 5px;
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+header {
+    font-size: 70px;
+    margin: 0 auto;
+    color:white;
+}
+.Button {
+    background-color: black;
+    border: 1px solid white;
+    width: 300px;
+    height: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+    opacity: 1000;
+    position: absolute;
+    top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-decoration: none;
+    color:white;
+}
+.line {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+a {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    transition: color 1s;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 0px;
+}
+.Button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+        margin: 0 auto;
+    }
+    a {
+        font-size: 30px;
+    }
+    .Button {
+        width: 200px;
+        height: 45px;
+        padding-top: 10px;
+        margin-left: 50px;
+    }
+    .container {
+        width: 300px;
+        height: 400px;
+        text-align: center;
+        padding: auto;
+    }
+    header {
+        font-size: 40px;
+        margin: 10px auto;
+    }
+}
